@@ -41,5 +41,19 @@ vim.o.completeopt = 'menuone,noselect'
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 
-vim.o.clipboard = 'unnamedplus'
+-- tabs & indentation
+
+-- search settings
+vim.o.ignorecase = true
+vim.o.smartcase = true
+
+vim.o.background = "dark"
+
+-- backspace
+
+vim.o.backspace = "indent,eol,start"
+
+-- split windows
+vim.o.splitright = true
+vim.o.splitbelow = true
 
